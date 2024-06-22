@@ -1,0 +1,4 @@
+1. Get youtube comments on the data structure load from the url 
+2. do processing on the youtube comment structure 
+3. Create visualization on the structure
+4. Use prompting techniques to suggest meaningful comments 

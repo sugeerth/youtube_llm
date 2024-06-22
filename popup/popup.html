@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Comment Ingester and WordCloud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>YouTube Comment Ingester and WordCloud</h1>
+  <h2>Click on the button in the lower left corner</h2>
+  <input type="text" id="videoUrl" placeholder="Enter YouTube video URL">
+  <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.1.1/src/wordcloud2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/spacy@2.3.5/dist/spacy.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/spacy-lang-en@2.3.5/dist/en_core_web_sm.min.js"></script>
+  <!-- <button id="fetch-comments">Fetch Comments</button> -->
+  <!-- <button id="start">Start</button> -->
+  <!-- <button id="showWordCloud" style="display: none;">Show Word Cloud</button> -->
+  <div id="wordCloud" style="width: 100%; height: 400px; display: none;"></div>
+  <script src="wordcloud2.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
